@@ -7,6 +7,7 @@ eureka:
   instance:
     hostname: localhost
 
+spring:
   jpa:
     show-sql: false  # Whether to log SQL queries
     hibernate:
