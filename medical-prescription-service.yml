@@ -24,7 +24,7 @@ spring:
     password: admin  # ActiveMQ password
 
   datasource:
-    url: "jdbc:mysql://localhost:3312/medical_prescription_service"
+    url: jdbc:mysql://localhost:3312/medical_prescription_service
     username: root
     password: root
 

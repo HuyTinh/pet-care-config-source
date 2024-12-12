@@ -19,7 +19,7 @@ spring:
     password: admin  # ActiveMQ password
 
   datasource:
-    url: "jdbc:mysql://localhost:3309/customer_service"  # MySQL database connection URL
+    url: jdbc:mysql://localhost:3309/customer_service  # MySQL database connection URL
     username: root  # MySQL username
     password: root  # MySQL password
 
@@ -33,3 +33,7 @@ springdoc:
     path: /api-docs  # Path for the generated API documentation
   swagger-ui:
     path: /swagger-ui.html  # Path to access Swagger UI
+
+service:
+  upload-client:
+    path: /api/v1/upload-service
