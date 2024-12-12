@@ -22,7 +22,7 @@ spring:
       max-request-size: 10MB
   # CONNECT SQL SERVER - HIBERNATE "application.properties"
   datasource:
-    url: jdbc:mysql://localhost:3315/product_service
+    url: jdbc:mysql://localhost:3314/product_service
     username: root
     password: root
 
