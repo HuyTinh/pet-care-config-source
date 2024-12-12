@@ -46,6 +46,11 @@ spring:
           predicates:
             - Path=/api/v1/medical-prescription-service/**
 
+        - id: bill-service
+          uri: lb://BILL-SERVICE
+          predicates:
+            - Path=/api/v1/bill-service/**
+
 eureka:
   client:
     service-url:
