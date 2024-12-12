@@ -1,19 +1,6 @@
 spring:
   cloud:
     gateway:
-      globalcors:
-        cors-configurations:
-          '[/**]': # Áp dụng cho tất cả các route
-            allowedOrigins:
-              - http://localhost:5173
-            allowedMethods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
-            allowedHeaders:
-              - "*"
-            allowCredentials: true
       routes:
         - id: identity-service
           uri: lb://IDENTITY-SERVICE
