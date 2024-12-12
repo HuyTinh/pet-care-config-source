@@ -37,3 +37,11 @@ server:
   port: 8086
   servlet:
     context-path: /api/v1/medical-prescription-service
+
+service:
+  medicine-client:
+    path: /api/v1/medicine-service
+  appointment-client:
+    path: /api/v1/appointment-service
+  upload-client:
+    path: /api/v1/upload-service
