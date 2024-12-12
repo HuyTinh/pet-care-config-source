@@ -1,8 +1,8 @@
 spring:
-  web:
+  cloud:
     globalcors:
       corsConfigurations:
-        '[/**]': # Áp dụng cho tất cả các endpoint
+        '[/**]': # Matches all paths
           allowedOrigins:
             - http://localhost:5173
             - http://127.0.0.1:5500
@@ -15,7 +15,6 @@ spring:
           allowedHeaders:
             - "*"
           allowCredentials: true
-  cloud:
     gateway:
       routes:
         - id: identity-service
