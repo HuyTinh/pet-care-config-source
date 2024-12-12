@@ -4,42 +4,42 @@ spring:
       mvc:
         routes:
           - id: identity-service
-            uri: lb://IDENTITY-SERVICE
+            uri: http://IDENTITY-SERVICE
             predicates:
               - Path=/api/v1/identity-service/**
 
           - id: customer-service
-            uri: lb://CUSTOMER-SERVICE
+            uri: http://CUSTOMER-SERVICE
             predicates:
               - Path=/api/v1/customer-service/**
 
           - id: employee-service
-            uri: lb://EMPLOYEE-SERVICE
+            uri: http://EMPLOYEE-SERVICE
             predicates:
               - Path=/api/v1/employee-service/**
 
           - id: appointment-service
-            uri: lb://APPOINTMENT-SERVICE
+            uri: http://APPOINTMENT-SERVICE
             predicates:
               - Path=/api/v1/appointment-service/**
 
           - id: medicine-service
-            uri: lb://MEDICINE-SERVICE
+            uri: http://MEDICINE-SERVICE
             predicates:
               - Path=/api/v1/medicine-service/**
 
           - id: medical-prescription-service
-            uri: lb://MEDICAL-PRESCRIPTION-SERVICE
+            uri: http://MEDICAL-PRESCRIPTION-SERVICE
             predicates:
               - Path=/api/v1/medical-prescription-service/**
 
           - id: bill-service
-            uri: lb://BILL-SERVICE
+            uri: http://BILL-SERVICE
             predicates:
               - Path=/api/v1/bill-service/**
 
           - id: payment-service
-            uri: lb://PAYMENT-SERVICE
+            uri: http://PAYMENT-SERVICE
             predicates:
             - Path=/api/v1/payment-service/**
 
