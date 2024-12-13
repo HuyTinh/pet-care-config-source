@@ -14,7 +14,7 @@ spring:
     password: admin  # ActiveMQ password
 
 server:
-  port: 8090
+  port: 8089
   servlet:
     context-path: /api/v1/payment-service
 

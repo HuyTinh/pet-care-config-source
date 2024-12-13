@@ -8,10 +8,6 @@ eureka:
     hostname: localhost
 
 spring:
-  data:
-    redis:
-      host: localhost
-      port: 6380
   jpa:
     show-sql: false  # Whether to log SQL queries
     hibernate:
