@@ -14,7 +14,7 @@ spring:
     password: admin  # ActiveMQ password
 
 brevo:
-  key: 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
+  key: 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
   url: https://api.brevo.com/v3/smtp/email
 
 server:
