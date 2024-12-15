@@ -20,6 +20,6 @@ cloudinary:
   api-secret: CF9pY6z7criTROCZtPVPHh7lwbE
 
 server:
-  port: 8089
+  port: 8090
   servlet:
     context-path: /api/v1/upload-service
